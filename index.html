@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/kk_icon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -48,7 +48,7 @@
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>projects</span></a></li>
         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -61,7 +61,7 @@
       <h1>Kirtan Kakadiya</h1>
       <p>Hi, I'm a <span class="typed" data-typed-items="Software Engineering Student"></span></p>
       <div class="social-links">
-
+        <a href="https://github.com/KirtanKakadiya?tab=repositories" class="github"><i class="bx bxl-github"></i></a>        
         <a href="https://www.linkedin.com/in/kirtan-kakadiya-98b8231b2/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
@@ -82,8 +82,8 @@
           <div class="col-lg-4">
             <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Software Engineer</h3>
+          <div class="col-lg-8 pt-4 pt-lg-0 content"  style="position: static; left:300px">
+            
 
             <div class="row">
               <div class="col-lg-6">
@@ -107,7 +107,7 @@
 
 
     <!-- ======= Resume Section ======= -->
-    <section id="Portfolio" class="Portfolio">
+    <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -116,7 +116,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Kirtan Kakakdiya</h4>
               <p><em>Software Engineering stundent at the University of Calgary currently in my third year. Have experience working with machine learning, web development, and cloud engineering</em></p>
@@ -145,10 +145,13 @@
               <h5>January 2023 - August 2023</h5>
               <p><em>Teck Resources LTD, Calgary, Canada</em></p>
               <ul>
-                <li>Working with cloud engineering team to help develop API and HVR pipelines</li>
-                <li>Designing and implementing data ingestion pipelines from multiple sources using Apache Spark
-                  and/or Azure Databricks
-                <li>Improve data availability, acting as a liaison between source systems </li>
+                <li>Developing a project to create a C# service which takes on-premises data from various international mining sites and
+                  ingests the data to the cloud for use by the Data Science team, while concurrently taking processed data and ingesting
+                  back to the cloud which then gets forwarded to on-premises engineers for taking critical operational decisions.</li>
+                <li>Working with cloud engineering team in an agile environment to develop and deploy scalable HVR (High Volume
+                  Replication) pipelines while also monitoring and fixing any bugs with the pipelines.
+                <li>Designing and implementing data ingestion pipelines from multiple API vendors using Python, REST API, Apache Spark
+                  and Databricks</li>
               </ul>
             </div>
             <div class="resume-item">
@@ -175,68 +178,62 @@
       </div>
     </section><!-- End Resume Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Projects Section ======= -->
+    <section id="projects" class="resume">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
+          <h2>Projects</h2>
           <p></p>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Sumary</h3>
             <div class="resume-item pb-0">
-              <h4>Kirtan Kakakdiya</h4>
-              <p><em>Software Engineering stundent at the University of Calgary currently in my third year. Have experience working with machine learning, web development, and cloud engineering</em></p>
+              <h4>Hack The Change Hackathon</h4>
               <ul>
-                <li>kirtan.kakadiya@example.com</li>
-                <li>+1 587-832-6181</li>
+                <li>Technolgies used were React.js, Node.js, HTML/CSS, Python</li>
+                <li>Competed in a Hackathon to build a web app related to mental health. Our team came in the top 6 and won three awards (Best
+                  Use of Cloud Computing, Best Use of APIs, and Best User Experience).</li>
+                <li>The concept of my team’s web app was to create a survey which would ask ten questions to the user related to their mental
+                  health. Based on those answers it would direct the user to a link with many resources to help assist with their symptoms.</li>
               </ul>
             </div>
 
-            <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Bachelor’s in applied science, University of Calgary</h4>
-              <h4>Major in Software Engineering</h4>
-              <h5>2020- Present</h5>
-              <p><em>University of Calgary, Calgary, Canada</em></p>
-              <p>Currently in the Internship/ Co-op Program</p>
-              <p>Relevant Course Work: Object Oriented Programming in Java and C++, Machine Learning, Computer Architecture, Computer
-                Networks, Data Structures and Algorithms, Embedded Systems, Operating Systems</p>
+              <h4>Food Bank System</h4>
+              <ul>
+                <li>Technolgies used were Java, MySQL, JUnit, and Object Oriented Programming</li>
+                <li>Created a food bank system which allowed users to determine if the food they consume in a week is appropriate based on the
+                  Canada Food Guide (CFG). The program has a GUI made using Java and accepts input such as the number of people in a
+                  family, age, and gender. This data will retrieve their weekly requirements using an SQL database which contains the minimum
+                  calories a user needs based on their gender and age.</li>
+                  <li>This project uses Java to create the GUI and components of Object-Oriented Programming. It also uses MySQL as a database
+                    for the nutritional values of food items and the weekly requirements of the user or their household. Lastly, Junit was used to
+                    test all functionalities of the program.</li>
+              </ul>
             </div>
 
           </div>
           <div class="col-lg-6">
-            <h3 class="resume-title">Work Experience</h3>
             <div class="resume-item">
-              <h4>Software Developer Intern</h4>
-              <h5>January 2023 - August 2023</h5>
-              <p><em>Teck Resources LTD, Calgary, Canada</em></p>
+              <h4>Nexus Robotics – First Canada Robotics Competition</h4>
               <ul>
-                <li>Working with cloud engineering team to help develop API and HVR pipelines</li>
-                <li>Designing and implementing data ingestion pipelines from multiple sources using Apache Spark
-                  and/or Azure Databricks
-                <li>Improve data availability, acting as a liaison between source systems </li>
+                <li>Technolgies used were C++ and using an Arduino</li>
+                <li>Participated in a robotics team that competed in the First Robotics Competition (FRC) held in Victoria, BC and Calgary, AB.
+                  The built robot competed against other teams to complete a set of tasks (such as picking up game cubes and placing them on
+                  a scale).</li>
+                <li>Responsible for developing synchronous robot movement using a controller where the main hardware of the robot was an
+                  Arduino which was programmed using C/C++.</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Software Research Intern</h4>
-              <h5>May 2022 - August 2022</h5>
-              <p><em>University of Calgary, Calgary, Canada</em></p>
+              <h4>Movie Theatre App</h4>
               <ul>
-                <li>The project which was conducted in the summer was for a large Canadian Corporation and the City of Calgary where the
-                  specifications of the project were to build a classifier which would be able to analyze a large amount of user inputted
-                  textual data and be able to group them based on their keywords.</li>
-                <li>This classifier helps the company to see which topics the users are talking about. The classifier had an accuracy of
-                  85.32% and is being currently written for a publication. Employed Machine learning algorithms such as TF-IDF and Naïve
-                  Bayes</li>
-                <li>Classifier inputs large textual data sets (e.g., emails, tweets), summarizes, and groups them into relevant topics
-                  associated with commonly used keywords. It is currently being used as a source to extract relevant data from large sets of
-                  data which contain text.</li>
-                <li>Classifier extracted keywords from 3 million tweets using REST API for the City of Calgary and large Canadian Company
-                  to conduct a sentiment analysis and gain a better understanding of what users in the city do and do not like.</li>
+                
+                <li>Technolgies/Practices used were Java, MySQL, Object Oriented Programming, and Design Patterns</li>
+                <li> Created a Movie Theatre application which connected to a local database to store information about tickets and showtimes for a given Movie Theatre and Movie.</li>
+                
               </ul>
             </div>
           </div>
